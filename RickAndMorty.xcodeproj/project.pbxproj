@@ -56,15 +56,71 @@
 		AB1FACE4293BE199008705F7 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
-				AB1FACE5293BE199008705F7 /* AppDelegate.swift */,
-				AB1FACE7293BE199008705F7 /* SceneDelegate.swift */,
-				AB1FACE9293BE199008705F7 /* ViewController.swift */,
-				AB1FACEB293BE199008705F7 /* Main.storyboard */,
-				AB1FACEE293BE19B008705F7 /* Assets.xcassets */,
-				AB1FACF0293BE19B008705F7 /* LaunchScreen.storyboard */,
-				AB1FACF3293BE19B008705F7 /* Info.plist */,
+				AB1FACF9293BE969008705F7 /* Models */,
+				AB1FACFC293BE9CB008705F7 /* ViewControllers */,
+				AB1FACFA293BE99B008705F7 /* Views */,
+				AB1FACFB293BE9AC008705F7 /* Services */,
+				AB1FACFD293BE9DC008705F7 /* Storyboards */,
+				AB1FACFF293BEA65008705F7 /* SupportingFiles */,
+				AB1FACFE293BEA10008705F7 /* Sourse */,
 			);
 			path = RickAndMorty;
+			sourceTree = "<group>";
+		};
+		AB1FACF9293BE969008705F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB1FACFA293BE99B008705F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB1FACE9293BE199008705F7 /* ViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AB1FACFB293BE9AC008705F7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AB1FACFC293BE9CB008705F7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AB1FACFD293BE9DC008705F7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AB1FACEB293BE199008705F7 /* Main.storyboard */,
+				AB1FACF0293BE19B008705F7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AB1FACFE293BEA10008705F7 /* Sourse */ = {
+			isa = PBXGroup;
+			children = (
+				AB1FACEE293BE19B008705F7 /* Assets.xcassets */,
+			);
+			path = Sourse;
+			sourceTree = "<group>";
+		};
+		AB1FACFF293BEA65008705F7 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AB1FACE5293BE199008705F7 /* AppDelegate.swift */,
+				AB1FACE7293BE199008705F7 /* SceneDelegate.swift */,
+				AB1FACF3293BE19B008705F7 /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,9 +358,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = a.s.kaznacheev.RickAndMorty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +389,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = a.s.kaznacheev.RickAndMorty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
